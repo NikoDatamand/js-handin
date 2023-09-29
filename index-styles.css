@@ -1,0 +1,95 @@
+body {
+    background-image: url(https://wallpapers.com/images/hd/iconic-windows-95-bliss-hill-hd-7a0l9cbeu9tuw3rj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.introduction {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.introduction h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.introduction ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction ul li {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 10px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.box-lightgreen {
+    background-color: #82d472;
+}
+
+.box-normalgreen {
+    background-color: #56b615;
+}
+
+.box-darkgreen {
+    background-color: #0d4d08;
+}
+
+.box:hover {
+    filter: brightness(120%);
+}
+
+.box:active {
+    background-color: #b9dbbf;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.box-text p {
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+    position: absolute;
+    margin: 0 auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
