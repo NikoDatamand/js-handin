@@ -77,9 +77,19 @@ body {
     background-color: #b9dbbf;
 }
 
-a {
+.link-inside-box {
     color: white;
     text-decoration: none;
+}
+
+.link-outside-box{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-outside-box:hover{
+    color: #ffffff;
 }
 
 .box-text p {
